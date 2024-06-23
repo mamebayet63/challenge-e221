@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E7F4FE;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .contact-form {
+            background-color: #EC681C;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            height: 50%;
+            color: white;
+            display: flex;
+            /* justify-content: center; */
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .cent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+
+        }
+        .contact-form button {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #8dc048;
+            color: white;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #8dc048;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-form">
+        <h2>Connexion</h2><br>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+            <input type="password" name="password" placeholder="Mot de passe" required>
+            <div class="cent">
+                <button type="submit">Connexion</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
